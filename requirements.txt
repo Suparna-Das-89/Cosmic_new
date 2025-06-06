@@ -1,0 +1,12 @@
+streamlit
+requests
+beautifulsoup4
+feedparser
+arxiv
+numpy
+matplotlib
+ephem
+llama-index-core
+llama-index-embeddings-huggingface
+llama-index-llms-groq
+sentence-transformers
