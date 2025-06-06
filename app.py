@@ -118,9 +118,7 @@ def get_wikipedia_summary(topic):
 def search_arxiv(query, max_results=5):
     try:
         search = arxiv.Search(query=query, max_results=max_results, sort_by=arxiv.SortCriterion.Relevance)
-        return [f"{res.title}
-
-{res.summary}" for res in search.results()]
+        return [f"{res.title}\n\n{res.summary}" for res in search.results()]
     except:
         return []
 
